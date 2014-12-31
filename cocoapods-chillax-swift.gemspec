@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'deoptimize.rb'
+require 'cocoapods-chillax-swift.rb'
 
 Gem::Specification.new do |spec|
-  spec.name          = "deoptimize"
-  spec.version       = Deoptimize::VERSION
+  spec.name          = "cocoapods-chillax-swift"
+  spec.version       = CocoaPodsChillaxSwift::VERSION
   spec.authors       = ["Ash Furrow"]
   spec.email         = ["ash@ashfurrow.com"]
   spec.description   = %q{A CocoaPods plugin to disable compiler optimizations on certain pods.}
   spec.summary       = %q{Given an opt-in whitelist of pod names, this plugin disbles compiler optimization on those pods' targets. This is useful while the Swift compiler is still segfaulting on certain libraries when optimizations are enabled, which they are by default.}
-  spec.homepage      = "https://github.com/ashfurrow/deoptimize"
+  spec.homepage      = "https://github.com/ashfurrow/cocoapods-chillax-swift"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

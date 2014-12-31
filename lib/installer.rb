@@ -1,4 +1,4 @@
-module CocoaPodsKeys
+module CocoaPodsChillaxSwift
   class Installer
     def initialize(sandbox_root, user_options)
       @sandbox_root = sandbox_root
