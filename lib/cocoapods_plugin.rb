@@ -1,1 +1,1 @@
-require 'plugin'
+require_relative 'plugin'
