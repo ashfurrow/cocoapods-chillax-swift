@@ -22,6 +22,7 @@ module CocoaPodsChillaxSwift
         targets.each do |target|
           target.build_configurations.each do |config|
             config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Onone'
+            config.build_settings['GCC_OPTIMIZATION_LEVEL'] = '0'
           end
         end
 
