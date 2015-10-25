@@ -30,7 +30,7 @@ Command failed due to signal: Segmentation fault: 11
 
 This problem is often caused by the Swift compiler's opimizations. Disabling them fixes the segfault. 
 
-![This is how you make me feel sometimes, Swift](http://static.ashfurrow.com.s3.amazonaws.com/gifs/angry.gif)
+![This is how you make me feel sometimes, Swift](http://gifs.ashfurrow.com/angry.gif)
 
 Doncha wish that you could just tell Swift to Chillax? Well, now you can. 
 
